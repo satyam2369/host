@@ -1,0 +1,192 @@
+.navb {
+    background: var(--color-footer);
+    color: aliceblue;
+    height: 6vh;
+    padding-top: 3vh;
+    display: flex;
+    /* flex-direction: row; */
+    position: fixed;
+    width: 100%;
+    z-index: 500;
+    font-family: 'Salsa', cursive;
+    /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    border-radius: 10px;
+    /* margin-top: 20px; */
+}
+
+.navb a {
+    color: aliceblue;
+    text-decoration: none;
+    margin-left: 7vw;
+    font-size: large;
+    font-weight: 600;
+    transition: 0.2s ease-in-out;
+
+}
+
+.navb a:hover {
+    color: rgb(107, 129, 255);
+}
+
+.logo {
+    height: 7.5vh;
+    position: absolute;
+    margin-top: -1.5vh;
+    margin-left: 10vw;
+    /* padding-right: 20px; */
+}
+
+.navb_logo {
+    /* margin-left: 10px; */
+    padding-left: 12px;
+    /* font-family: 'Lobster', sans-serif; */
+    /* font-family: 'Oswald', sans-serif; */
+}
+
+.navb h3 {
+    margin-left: 14.6vw;
+    margin-top: -0.5vh;
+    font-size: x-large;
+}
+
+.profile {
+    height: 7.5vh;
+    margin-top: -1.8vh;
+    margin-left: 17vw;
+}
+
+.butt {
+    font-family: 'Salsa', cursive;
+    background-color: #f4511e;
+    border: none;
+    color: white;
+    padding: 8px 24px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 18px;
+    margin: -2px 2px;
+    margin-bottom: 1vh;
+    margin-top: -2vh;
+    margin-left: 20vw;
+    opacity: 0.8;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.butt:hover {
+    opacity: 1
+}
+.user_{
+    margin-top: -0.5vh;
+    margin-left: 20vw;
+}
+/* Media Queries */
+@media screen and (max-width: 767px) {
+    /* Mobile Styles */
+    .navb {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .navb a,
+    /* .navb h3, */
+    .butt {
+        margin: 4px 12px;
+        font-size: 12px;
+    }
+    .navb h3 {
+        margin-left: 60px;
+        margin-top: 3px;
+        font-size: 24px;
+    }
+    .logo {
+        margin-left: 12px;
+        margin-top: 2px;
+        width: 10%;
+        height: 20%;
+    }
+    .navb_logo {
+        margin-left: 120px;
+    }
+
+    .butt {
+        margin-left: 0;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    /* Tablet Styles */
+    .navb a,
+    .navb h3,
+    .butt {
+        margin-left: 2vw;
+        font-size: large;
+    }
+    .logo {
+        margin-left: 4px;
+    }
+    .navb h3 {
+        margin-left: 100px;
+        margin-top: -2px;
+        font-size: 26px;
+    } 
+}
+@media screen and (min-width: 768px) and (min-height: 1366px){
+    .logo{
+        height: 76%;
+        width: 10%;
+        margin-left: 10px;
+    }
+    .navb h3 {
+        font-size: 34px;
+    }
+}
+
+/* Larger Screens (Desktops and Laptops) */
+
+@media screen and (min-width: 1024px){
+    .navb h3 {
+        margin-left: 140px;
+        margin-top: -10px;
+        font-size: 32px;
+    }
+    .logo {
+        margin-left: 12px;
+        margin-top: -10px;
+        width: 10%;
+        height: 90%;
+    }
+    .navb_logo {
+        margin-left: 100px;
+        /* margin-top: -40px; */
+    }
+    .butt {
+        margin-left: 30px;
+    }
+
+}
+
+@media screen and (min-width: 1280px) {
+    .navb h3 {
+        margin-left: 140px;
+        /* margin-top: 1px; */
+        font-size: 30px;
+    }
+    .logo {
+        margin-left: 16px;
+        margin-top: -16px;
+        width: 7.5%;
+        height: 95%;
+    }
+    .navb_logo {
+        margin-left: 120px;
+        margin-top: -10px;
+    }
+    .butt {
+        margin-left: 300px;
+    }
+}

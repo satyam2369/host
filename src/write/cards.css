@@ -1,0 +1,47 @@
+.cards_section {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    height: 55vh;
+    width: 42vh;
+    background-color: rgb(52, 50, 50);
+    margin-top: 5vh;
+    border-radius: 10px;
+    box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.75);
+    /* margin-left: 5vh; */
+    margin-bottom: 2vh;
+}
+
+.cover_page img{
+    width: 42vh;
+    height: 28vh;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.story_title {
+    margin-top: 1.2vh;
+    
+    font-size: 25px;
+    /* width: 40px; */
+    /* height: 40px; */
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.story_des {
+    color: white;
+    font-size: 14px;
+    padding: 1vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    overflow: hidden;
+}
+.UserName{
+    color: wheat;
+    font-size: 2vh;
+    padding-left: 10px;
+    padding-right: 10px;
+}

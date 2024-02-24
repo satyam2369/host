@@ -1,0 +1,129 @@
+
+
+
+.hero {
+  text-align: center;
+  /* background:var(--color-bg); */
+  padding-top: 25vh;
+  height: 55vh;
+}
+
+.hero h2 {
+  font-size: 58px;
+  /* color: white; */
+  background: -webkit-linear-gradient(#ffffff, #5c98ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Signika', sans-serif;
+  letter-spacing: 1.5px;
+}
+
+.hero p {
+  /* margin-top: -3vh;
+  font-size: 23px; */
+  /* font-weight: 600; */
+  /* color: rgb(237, 237, 237); */
+  /* background: -webkit-linear-gradient(#6793dd,rgb(255, 255, 255));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+}
+
+
+.bg_video {
+  position: fixed;
+  z-index: -1;
+  margin-left: -50.6vw;
+  margin-top: -60vh;
+  width: 101vw;
+  object-fit: cover;
+  /* height: 20vh; */
+
+}
+
+.p1 {
+  font-size: 28px;
+  margin-top: -3vh;
+  color: rgb(237, 237, 237);
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.p2 {
+  font-size: 21px;
+  margin-top: -3vh;
+  color: rgb(237, 237, 237);
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.feature-link {
+  margin: 12px;
+}
+
+/* meida queries */
+/* Medium devices (landscape phones, 576px and up) */
+@media screen and (min-width: var(--breakpoint-sm)) {
+  .hero h2 {
+    /* Use relative unit for font size */
+    font-size: 3.125rem;
+  }
+
+  .hero p {
+    /* Use relative unit for font size */
+    font-size: 1.25rem;
+  }
+
+  .intro {
+    /* Use relative unit for font size */
+    font-size: 1.5625rem;
+  }
+
+  .description {
+    /* Use relative unit for font size */
+    font-size: 1.125rem;
+  }
+}
+
+/* Large devices (tablets, 768px and up) */
+@media screen and (min-width: var(--breakpoint-md)) {
+  .hero h2 {
+    /* Use relative unit for font size */
+    font-size: 3.125rem;
+  }
+
+  .hero p {
+    /* Use relative unit for font size */
+    font-size: 1.25rem;
+  }
+
+  .intro {
+    /* Use relative unit for font size */
+    font-size: 1.5rem;
+  }
+
+  .description {
+    /* Use relative unit for font size */
+    font-size: 1.125rem;
+  }
+}
+
+/* Extra large devices (desktops, 992px and up) */
+@media screen and (min-width: var(--breakpoint-lg)) {
+  .hero h2 {
+    /* Use relative unit for font size */
+    font-size: 3.625rem;
+  }
+
+  .hero p {
+    /* Use relative unit for font size */
+    font-size: 1.4375rem;
+  }
+
+  .intro {
+    /* Use relative unit for font size */
+    font-size: 1.75rem;
+  }
+
+  .description {
+    /* Use relative unit for font size */
+    font-size: 1.3125rem;
+  }
+}

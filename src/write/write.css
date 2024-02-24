@@ -1,0 +1,38 @@
+.write-parent{
+    display: flex;
+    /* justify-content: center; */
+    padding-top: 2vh;
+    /* background-color: var(--color-blog); */
+    background-color: rgba(0, 0, 0, 0.705);
+   margin-top: 3vh;
+   margin-left: 24vw;
+   margin-right: 24vw;
+   border-radius: 15px;
+   /* position: absolute; */
+   /* position: fixed;
+   width: 50vw; */
+}
+.back{
+    background-repeat: no-repeat;
+    position: fixed;
+    z-index: -2;
+    margin-top: -4vh;
+    width: 98.9vw;
+}
+.write-parent img{
+    height: 10vh;
+    justify-self: start;
+    margin-left: 4vw;
+    
+}
+.write-parent h1{
+    color: white;
+    margin-left: 8vw;
+    margin-top: 1vh;
+}
+.write-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 10vh;
+}

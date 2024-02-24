@@ -1,0 +1,14 @@
+.carosol_background{
+    /* background-image: linear-gradient(103.22deg, #0e132b , #2600ad ); */
+    height: 70vh;
+    width: 98.8vw;
+    padding-top: 15vh;
+    margin-top: 20vh;
+    
+}
+.tales{
+    color: rgb(255, 255, 255);
+    margin-left: 35vw;
+    margin-top: -20vh;
+    margin-bottom: 2vh;
+}

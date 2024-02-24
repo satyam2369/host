@@ -1,0 +1,30 @@
+.character_section {
+    /* text-align: center; */
+    width: 100vw;
+    height: 100vh;
+}
+
+.char_heading {
+    font-family: 'Rubik Maps', system-ui;
+    text-align: center;
+    font-size: 2.6em;
+    margin-top: 2vh;
+    padding-top: 2vh;
+    font-weight: 100;
+    color: rgb(255, 255, 255);
+}
+
+.char_img {
+    position: fixed;
+    z-index: -1;
+    margin-top: -2vh;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0.92;
+}
+.char_cards_display {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
